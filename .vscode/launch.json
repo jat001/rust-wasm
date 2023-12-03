@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "web",
+      "request": "launch",
+      "timeout": 60000,
+      "type": "chrome",
+      "url": "http://localhost:8000",
+      "userDataDir": false
+    }
+  ],
+  "version": "0.2.0"
+}

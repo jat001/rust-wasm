@@ -2,7 +2,7 @@
 
 ## Debugging
 
-0. Install [`wasm-bindgen-cli`](https://github.com/rustwasm/wasm-bindgen?tab=readme-ov-file#install-wasm-bindgen-cli) and [C/C++ DevTools Support (DWARF)](https://chromewebstore.google.com/detail/cc++-devtools-support-dwa/pdcpmagijalfljmkmjngeonclgbbannb)
+0. Install [`wasm-bindgen-cli`](https://github.com/rustwasm/wasm-bindgen?tab=readme-ov-file#install-wasm-bindgen-cli) and Chrome extension [C/C++ DevTools Support (DWARF)](https://chromewebstore.google.com/detail/cc++-devtools-support-dwa/pdcpmagijalfljmkmjngeonclgbbannb) (only compatible with Chrome **Canary and Dev** version, MSEdge is not supported).
 
 1. Build
 
@@ -26,3 +26,5 @@
 4. Open Chrome DevTools and go to **Sources** tab.
 
    You should see `top` -> `file://` -> `${workspaceFolder}/src` -> `lib.rs` under **Page** pane.
+
+5. VSCode is also supported. Use VSCode **Insiders** version and install [WebAssembly DWARF Debugging](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wasm-dwarf-debugging) extension.
